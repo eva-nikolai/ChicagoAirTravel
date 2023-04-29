@@ -8,7 +8,8 @@ Eva Nikolai
 
 Collaborated with Patrick Armstrong, Yixin Li and Carson Hayes-Singer.
 
-To acquire the data, we had to scrape the Bureau of Transportation Statistics website. The site has both yearly and monthly data available on multiple metrics related to flight departures, delays, and cancellations. For our project we wanted to get all the monthly departure data available from 2013-2022 for both Chicago O'Hare and Chicago Midway. Specifically, we wanted to look at the "Departure Delayed %" column of the data tables.
+To acquire the data, we scraped the Bureau of Transportation Statistics website. The site has both yearly and monthly data available on multiple metrics related to flight departures, delays, and cancellations. For our project we wanted to get all the monthly departure data available from 2013-2022 for both Chicago O'Hare and Chicago Midway. Specifically, we wanted to look at the "Departure Delayed %" column of the data tables.
+* This data is saved in "O'Hare_cleaned.csv" and "midway_cleaned.csv"
 
 Read in the data. Explored the data to make sure it was consistent and accurate. Dropped unnecessary columns from the data sets. 
 ```{r}
@@ -25,7 +26,7 @@ tail(Midway)
 Midway <- Midway[,-1]
 ```
 
-## Data Exploration - Plots 
+## Data Exploration:
 ```{r}
 #Ohare time plot of the differenced series for the delayed monthly departure percentage 
 plot.ts(diff(Ohare$Delayed....))
@@ -47,7 +48,7 @@ lines(Midway.ts, col = "red")
 legend("bottomleft", legend = c("O'Hare", "Midway"), col = c("black", "red"), lty = 1)
 ```
 
-## Partition the data:
+## Data Partitioning:
 ```{r}
 nValid <- 12
 nTrain <- length(Ohare.ts) - nValid
@@ -64,7 +65,7 @@ valid.Midway <- window(Midway.ts, start=c(2013, nTrain+1), end = c(2013, nTrain+
 valid.Midway
 ```
 
-## Check for a random walk: 
+## Check for Random Walk: 
 **Indications of a random walk:**
 **1) Auto correlations of the differenced series are close to zero.**
 **2) The coefficient of AR1 component is close to 1.**
