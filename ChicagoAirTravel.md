@@ -1,7 +1,7 @@
 ## Chicago Airport Performance Predictions
 
-Contributors: Patrick Armstrong, Yixin Li, Eva Nikolai, Carson
-Hayes-Singer
+Contributors: Eva Nikolai, Patrick Armstrong, Carson Hayes-Singer, Yixin
+Li
 
 To acquire the data, we scraped the Bureau of Transportation Statistics
 website. The site has both yearly and monthly data available on multiple
@@ -1154,48 +1154,46 @@ such as time series.
 
     ## Epoch 1/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 4s - loss: 8.7254 - root_mean_squared_error: 2.9539
-    ## 4/4 [==============================] - 6s 2s/step - loss: 7.2515 - root_mean_squared_error: 2.6929 - val_loss: 3.0379 - val_root_mean_squared_error: 1.7429
+    ## 1/4 [======>.......................] - ETA: 5s - loss: 7.2211 - root_mean_squared_error: 2.6872
+    ## 4/4 [==============================] - 5s 1s/step - loss: 5.1479 - root_mean_squared_error: 2.2689 - val_loss: 0.4263 - val_root_mean_squared_error: 0.6530
     ## Epoch 2/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 3.3232 - root_mean_squared_error: 1.8230
-    ## 4/4 [==============================] - 3s 1s/step - loss: 1.6178 - root_mean_squared_error: 1.2719 - val_loss: 0.7694 - val_root_mean_squared_error: 0.8772
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.4832 - root_mean_squared_error: 0.6951
+    ## 4/4 [==============================] - 0s 20ms/step - loss: 0.4900 - root_mean_squared_error: 0.7000 - val_loss: 1.4066 - val_root_mean_squared_error: 1.1860
     ## Epoch 3/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.9540 - root_mean_squared_error: 0.9767
-    ## 4/4 [==============================] - 5s 2s/step - loss: 1.2022 - root_mean_squared_error: 1.0965 - val_loss: 0.4008 - val_root_mean_squared_error: 0.6331
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 1.6097 - root_mean_squared_error: 1.2687
+    ## 4/4 [==============================] - 4s 1s/step - loss: 0.8610 - root_mean_squared_error: 0.9279 - val_loss: 0.0537 - val_root_mean_squared_error: 0.2317
     ## Epoch 4/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.3952 - root_mean_squared_error: 0.6286
-    ## 4/4 [==============================] - 5s 1s/step - loss: 0.2286 - root_mean_squared_error: 0.4781 - val_loss: 0.3284 - val_root_mean_squared_error: 0.5731
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1051 - root_mean_squared_error: 0.3243
+    ## 4/4 [==============================] - 0s 12ms/step - loss: 0.2962 - root_mean_squared_error: 0.5442 - val_loss: 0.5389 - val_root_mean_squared_error: 0.7341
     ## Epoch 5/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.4538 - root_mean_squared_error: 0.6736
-    ## 4/4 [==============================] - 0s 19ms/step - loss: 0.5085 - root_mean_squared_error: 0.7131 - val_loss: 0.3634 - val_root_mean_squared_error: 0.6028
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.6705 - root_mean_squared_error: 0.8188
+    ## 4/4 [==============================] - 0s 10ms/step - loss: 0.5357 - root_mean_squared_error: 0.7319 - val_loss: 0.1388 - val_root_mean_squared_error: 0.3726
     ## Epoch 6/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.4058 - root_mean_squared_error: 0.6370
-    ## 4/4 [==============================] - 5s 2s/step - loss: 0.3405 - root_mean_squared_error: 0.5835 - val_loss: 0.0348 - val_root_mean_squared_error: 0.1865
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1663 - root_mean_squared_error: 0.4078
+    ## 4/4 [==============================] - 0s 13ms/step - loss: 0.1498 - root_mean_squared_error: 0.3871 - val_loss: 0.1388 - val_root_mean_squared_error: 0.3725
     ## Epoch 7/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1736 - root_mean_squared_error: 0.4167
-    ## 4/4 [==============================] - 0s 20ms/step - loss: 0.1286 - root_mean_squared_error: 0.3586 - val_loss: 0.2049 - val_root_mean_squared_error: 0.4526
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.3161 - root_mean_squared_error: 0.5622
+    ## 4/4 [==============================] - 0s 11ms/step - loss: 0.2402 - root_mean_squared_error: 0.4901 - val_loss: 0.1687 - val_root_mean_squared_error: 0.4107
     ## Epoch 8/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2070 - root_mean_squared_error: 0.4549
-    ## 4/4 [==============================] - 0s 19ms/step - loss: 0.2672 - root_mean_squared_error: 0.5169 - val_loss: 0.0940 - val_root_mean_squared_error: 0.3066
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1866 - root_mean_squared_error: 0.4320
+    ## 4/4 [==============================] - 4s 1s/step - loss: 0.1651 - root_mean_squared_error: 0.4064 - val_loss: 0.0336 - val_root_mean_squared_error: 0.1833
     ## Epoch 9/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.0856 - root_mean_squared_error: 0.2925
-    ## 4/4 [==============================] - 0s 18ms/step - loss: 0.1267 - root_mean_squared_error: 0.3559 - val_loss: 0.0552 - val_root_mean_squared_error: 0.2350
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.0445 - root_mean_squared_error: 0.2110
+    ## 4/4 [==============================] - 0s 31ms/step - loss: 0.1260 - root_mean_squared_error: 0.3549 - val_loss: 0.0989 - val_root_mean_squared_error: 0.3145
     ## Epoch 10/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1938 - root_mean_squared_error: 0.4403
-    ## 4/4 [==============================] - 0s 18ms/step - loss: 0.1667 - root_mean_squared_error: 0.4082 - val_loss: 0.0853 - val_root_mean_squared_error: 0.2921
-    ## <keras.callbacks.History object at 0x00000207504A7280>
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2238 - root_mean_squared_error: 0.4730
+    ## 4/4 [==============================] - 0s 18ms/step - loss: 0.1700 - root_mean_squared_error: 0.4123 - val_loss: 0.0441 - val_root_mean_squared_error: 0.2100
+    ## <keras.callbacks.History object at 0x0000010843CE7280>
     ## 
-    ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
-    ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
@@ -1211,17 +1209,17 @@ such as time series.
     train_results
 
     ##      Train Predictions  Actuals
-    ## 0            17.683798    25.11
-    ## 1            17.867779    28.57
-    ## 2            17.288765    26.37
-    ## 3            17.652719    36.27
-    ## 4            18.202616    30.02
+    ## 0            21.098953    25.11
+    ## 1            21.044960    28.57
+    ## 2            20.463423    26.37
+    ## 3            20.830280    36.27
+    ## 4            22.031418    30.02
     ## ..                 ...      ...
-    ## 100          12.335331    23.84
-    ## 101          16.788568    24.90
-    ## 102          16.656311    13.41
-    ## 103          15.073918    19.79
-    ## 104          13.452372    15.05
+    ## 100          14.096224    23.84
+    ## 101          19.556919    24.90
+    ## 102          19.445351    13.41
+    ## 103          16.651678    19.79
+    ## 104          15.158359    15.05
     ## 
     ## [105 rows x 2 columns]
 
@@ -1236,24 +1234,24 @@ such as time series.
 
     ## 
     ## 1/1 [==============================] - ETA: 0s
-    ## 1/1 [==============================] - 0s 21ms/step
+    ## 1/1 [==============================] - 0s 32ms/step
 
     test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':np.exp(y_test1)})
     test_results
 
     ##     Test Predictions  Actuals
-    ## 0          14.404540    18.95
-    ## 1          13.840323    20.51
-    ## 2          15.072954    20.92
-    ## 3          15.481946    18.25
-    ## 4          15.187150    18.83
-    ## 5          14.669961    18.58
-    ## 6          14.771299    22.12
-    ## 7          15.193626    23.25
-    ## 8          16.120218    21.54
-    ## 9          16.128765    13.90
-    ## 10         14.548941    12.97
-    ## 11         12.499676    16.99
+    ## 0          15.981020    18.95
+    ## 1          15.574628    20.51
+    ## 2          17.181046    20.92
+    ## 3          17.716923    18.25
+    ## 4          17.175285    18.83
+    ## 5          16.576704    18.58
+    ## 6          16.684654    22.12
+    ## 7          17.427359    23.25
+    ## 8          18.663286    21.54
+    ## 9          18.572412    13.90
+    ## 10         16.059589    12.97
+    ## 11         13.568467    16.99
 
     plt.plot(test_results['Test Predictions'])
     plt.plot(test_results['Actuals'])
@@ -1269,19 +1267,19 @@ such as time series.
 
     print('RMSE:', round(rmse,2))
 
-    ## RMSE: 5.09
+    ## RMSE: 3.75
 
     print('MAE:', round(mae,2))
 
-    ## MAE: 4.71
+    ## MAE: 3.43
 
     print('MPE:', round(mpe,2))
 
-    ## MPE: 19.27
+    ## MPE: 8.81
 
     print('MAPE:', round(mape,2))
 
-    ## MAPE: 23.97
+    ## MAPE: 18.39
 
 **Midway** Then we do the same for Midway.
 
@@ -1357,47 +1355,46 @@ such as time series.
 
     ## Epoch 1/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 3s - loss: 8.5286 - root_mean_squared_error: 2.9204
-    ## 4/4 [==============================] - 6s 2s/step - loss: 7.5740 - root_mean_squared_error: 2.7521 - val_loss: 4.2544 - val_root_mean_squared_error: 2.0626
+    ## 1/4 [======>.......................] - ETA: 5s - loss: 9.3914 - root_mean_squared_error: 3.0645
+    ## 4/4 [==============================] - 5s 1s/step - loss: 9.6529 - root_mean_squared_error: 3.1069 - val_loss: 11.0490 - val_root_mean_squared_error: 3.3240
     ## Epoch 2/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 3.3349 - root_mean_squared_error: 1.8262
-    ## 4/4 [==============================] - 3s 993ms/step - loss: 1.6085 - root_mean_squared_error: 1.2683 - val_loss: 0.5903 - val_root_mean_squared_error: 0.7683
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 9.0055 - root_mean_squared_error: 3.0009
+    ## 4/4 [==============================] - 3s 1s/step - loss: 7.7901 - root_mean_squared_error: 2.7911 - val_loss: 7.0179 - val_root_mean_squared_error: 2.6491
     ## Epoch 3/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 1.0852 - root_mean_squared_error: 1.0417
-    ## 4/4 [==============================] - 4s 1s/step - loss: 1.2913 - root_mean_squared_error: 1.1364 - val_loss: 0.4198 - val_root_mean_squared_error: 0.6479
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 5.3100 - root_mean_squared_error: 2.3043
+    ## 4/4 [==============================] - 5s 2s/step - loss: 3.7103 - root_mean_squared_error: 1.9262 - val_loss: 0.5298 - val_root_mean_squared_error: 0.7278
     ## Epoch 4/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.5588 - root_mean_squared_error: 0.7475
-    ## 4/4 [==============================] - 0s 22ms/step - loss: 0.3353 - root_mean_squared_error: 0.5791 - val_loss: 0.4646 - val_root_mean_squared_error: 0.6816
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.4126 - root_mean_squared_error: 0.6423
+    ## 4/4 [==============================] - 0s 21ms/step - loss: 0.5671 - root_mean_squared_error: 0.7531 - val_loss: 1.2507 - val_root_mean_squared_error: 1.1184
     ## Epoch 5/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.3580 - root_mean_squared_error: 0.5983
-    ## 4/4 [==============================] - 0s 21ms/step - loss: 0.5236 - root_mean_squared_error: 0.7236 - val_loss: 0.9380 - val_root_mean_squared_error: 0.9685
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 1.6719 - root_mean_squared_error: 1.2930
+    ## 4/4 [==============================] - 4s 1s/step - loss: 1.3068 - root_mean_squared_error: 1.1432 - val_loss: 0.0472 - val_root_mean_squared_error: 0.2173
     ## Epoch 6/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.5664 - root_mean_squared_error: 0.7526
-    ## 4/4 [==============================] - 3s 937ms/step - loss: 0.5217 - root_mean_squared_error: 0.7223 - val_loss: 0.1958 - val_root_mean_squared_error: 0.4425
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2342 - root_mean_squared_error: 0.4839
+    ## 4/4 [==============================] - 0s 21ms/step - loss: 0.2095 - root_mean_squared_error: 0.4577 - val_loss: 0.6040 - val_root_mean_squared_error: 0.7772
     ## Epoch 7/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2440 - root_mean_squared_error: 0.4939
-    ## 4/4 [==============================] - 5s 2s/step - loss: 0.1568 - root_mean_squared_error: 0.3960 - val_loss: 0.0652 - val_root_mean_squared_error: 0.2553
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.4174 - root_mean_squared_error: 0.6461
+    ## 4/4 [==============================] - 0s 19ms/step - loss: 0.5064 - root_mean_squared_error: 0.7116 - val_loss: 0.8355 - val_root_mean_squared_error: 0.9140
     ## Epoch 8/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2339 - root_mean_squared_error: 0.4836
-    ## 4/4 [==============================] - 3s 1s/step - loss: 0.3254 - root_mean_squared_error: 0.5704 - val_loss: 0.0459 - val_root_mean_squared_error: 0.2142
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.6342 - root_mean_squared_error: 0.7963
+    ## 4/4 [==============================] - 0s 19ms/step - loss: 0.4624 - root_mean_squared_error: 0.6800 - val_loss: 0.2974 - val_root_mean_squared_error: 0.5454
     ## Epoch 9/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1412 - root_mean_squared_error: 0.3758
-    ## 4/4 [==============================] - 0s 22ms/step - loss: 0.1905 - root_mean_squared_error: 0.4365 - val_loss: 0.1398 - val_root_mean_squared_error: 0.3739
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.1522 - root_mean_squared_error: 0.3901
+    ## 4/4 [==============================] - 4s 1s/step - loss: 0.1993 - root_mean_squared_error: 0.4465 - val_loss: 0.0305 - val_root_mean_squared_error: 0.1747
     ## Epoch 10/10
     ## 
-    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2102 - root_mean_squared_error: 0.4585
-    ## 4/4 [==============================] - 0s 34ms/step - loss: 0.1978 - root_mean_squared_error: 0.4447 - val_loss: 0.2824 - val_root_mean_squared_error: 0.5314
-    ## <keras.callbacks.History object at 0x000002075B33F8E0>
+    ## 1/4 [======>.......................] - ETA: 0s - loss: 0.2813 - root_mean_squared_error: 0.5304
+    ## 4/4 [==============================] - 0s 11ms/step - loss: 0.2341 - root_mean_squared_error: 0.4839 - val_loss: 0.0352 - val_root_mean_squared_error: 0.1875
+    ## <keras.callbacks.History object at 0x0000010852CF6850>
     ## 
-    ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
     ## WARNING:absl:Found untraced functions such as _update_step_xla, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses while saving (showing 3 of 3). These functions will not be directly callable after loading.
@@ -1408,23 +1405,23 @@ such as time series.
 
     ## 
     ## 1/4 [======>.......................] - ETA: 1s
-    ## 4/4 [==============================] - 0s 4ms/step
+    ## 4/4 [==============================] - 0s 3ms/step
 
     train_results = pd.DataFrame(data={'Train Predictions':train_predictions, 'Actuals':np.exp(y_train1)})
     train_results
 
     ##      Train Predictions  Actuals
-    ## 0            18.046808    27.95
-    ## 1            18.018923    26.31
-    ## 2            18.756300    29.36
-    ## 3            18.759565    40.22
-    ## 4            20.228991    35.00
+    ## 0            32.657333    27.95
+    ## 1            32.458565    26.31
+    ## 2            33.837994    29.36
+    ## 3            33.754585    40.22
+    ## 4            36.123581    35.00
     ## ..                 ...      ...
-    ## 100          19.312387    44.04
-    ## 101          23.083727    44.37
-    ## 102          22.661543    23.47
-    ## 103          20.781607    36.89
-    ## 104          18.807709    26.89
+    ## 100          34.361866    44.04
+    ## 101          40.996304    44.37
+    ## 102          40.273281    23.47
+    ## 103          37.502346    36.89
+    ## 104          33.658382    26.89
     ## 
     ## [105 rows x 2 columns]
 
@@ -1438,24 +1435,24 @@ such as time series.
 
     ## 
     ## 1/1 [==============================] - ETA: 0s
-    ## 1/1 [==============================] - 0s 16ms/step
+    ## 1/1 [==============================] - 0s 15ms/step
 
     test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':np.exp(y_test1)})
     test_results
 
     ##     Test Predictions  Actuals
-    ## 0          20.247652    29.82
-    ## 1          18.916658    27.08
-    ## 2          19.172705    28.44
-    ## 3          18.817505    33.83
-    ## 4          19.568537    38.54
-    ## 5          20.854839    34.76
-    ## 6          21.237505    46.59
-    ## 7          21.545799    43.68
-    ## 8          22.912828    44.79
-    ## 9          22.645870    33.14
-    ## 10         21.879457    27.95
-    ## 11         19.809402    27.98
+    ## 0          36.465008    29.82
+    ## 1          34.023701    27.08
+    ## 2          34.558895    28.44
+    ## 3          33.884300    33.83
+    ## 4          35.086735    38.54
+    ## 5          37.254345    34.76
+    ## 6          37.996964    46.59
+    ## 7          38.319691    43.68
+    ## 8          40.711807    44.79
+    ## 9          40.240086    33.14
+    ## 10         39.139950    27.95
+    ## 11         35.663361    27.98
 
     plt.plot(test_results['Test Predictions'])
     plt.plot(test_results['Actuals'])
@@ -1471,19 +1468,19 @@ such as time series.
 
     print('RMSE:', round(rmse,2))
 
-    ## RMSE: 15.41
+    ## RMSE: 6.47
 
     print('MAE:', round(mae,2))
 
-    ## MAE: 14.08
+    ## MAE: 5.81
 
     print('MPE:', round(mpe,2))
 
-    ## MPE: 38.75
+    ## MPE: -9.74
 
     print('MAPE:', round(mape,2))
 
-    ## MAPE: 38.75
+    ## MAPE: 17.87
 
 ------------------------------------------------------------------------
 
