@@ -1,12 +1,12 @@
 ---
-title: "Chicago Air Travel Group Project"
+title: "Chicago Airport Performance Predictions"
 output: md_document
 date: '2023-02-21'
 ---
 
-Eva Nikolai 
+## Chicago Airport Performance Predictions
 
-Collaborated with Patrick Armstrong, Yixin Li and Carson Hayes-Singer.
+Contributors: Patrick Armstrong, Yixin Li, Eva Nikolai, Carson Hayes-Singer
 
 To acquire the data, we scraped the Bureau of Transportation Statistics website. The site has both yearly and monthly data available on multiple metrics related to flight departures, delays, and cancellations. For our project we wanted to get all the monthly departure data available from 2013-2022 for both Chicago O'Hare and Chicago Midway. Specifically, we wanted to look at the "Departure Delayed %" column of the data tables.
 * This data is saved in "O'Hare_cleaned.csv" and "midway_cleaned.csv"
