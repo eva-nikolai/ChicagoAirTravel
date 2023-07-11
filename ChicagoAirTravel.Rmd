@@ -478,7 +478,7 @@ The accuracy function reinforces our finding that the Holt-Winter method is inde
 
 ------------------------------------------------------------------------------------------------------------
 
-## Bonus: Long Short-term Memory Model
+## Long Short-term Memory Model
 
 LSTM stands for long short-term memory networks, used in the field of Deep Learning. It is a variety of recurrent neural networks (RNNs) that are capable of learning long-term dependencies, especially in sequence prediction problems. LSTM has feedback connections, i.e., it is capable of processing the entire sequence of data, apart from single data points such as time series.
 
