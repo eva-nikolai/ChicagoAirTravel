@@ -1055,7 +1055,7 @@ dataset.
 
 ------------------------------------------------------------------------
 
-## Bonus: Long Short-term Memory Model
+## Long Short-term Memory Model
 
 LSTM stands for long short-term memory networks, used in the field of
 Deep Learning. It is a variety of recurrent neural networks (RNNs) that
